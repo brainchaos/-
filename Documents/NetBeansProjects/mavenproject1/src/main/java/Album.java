@@ -29,7 +29,6 @@ public class Album {
             // Создается построитель документа
             DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             // Создается дерево DOM документа из файла
-            //Document document = documentBuilder.parse("Album2.xml");
             Document document = documentBuilder.parse(fileName);
  
             // Получаем корневой элемент
